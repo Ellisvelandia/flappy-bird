@@ -6,8 +6,8 @@
 }
 
 body {
-max-width: 100%;
-max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .background {
@@ -92,7 +92,7 @@ max-height: 100%;
     width: 120px;
     height: 90px;
   }
-  
+
   .pipe_sprite {
     width: 14vw;
   }

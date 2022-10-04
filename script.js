@@ -4,6 +4,7 @@ let bird = document.querySelector(".bird");
 let img = document.getElementById("bird-1");
 let sound_point = new Audio("sounds effect/point.mp3");
 let sound_die = new Audio("sounds effect/die.mp3");
+let sound_background = new Audio("sounds effect/music.mp3");
 
 let bird_props = bird.getBoundingClientRect();
 
@@ -34,6 +35,7 @@ document.addEventListener("keydown", (e) => {
 });
 
 function play() {
+  sound_background.play();
   function move() {
     if (game_state != "Play") return;
 
